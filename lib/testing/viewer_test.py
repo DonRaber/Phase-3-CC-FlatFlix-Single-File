@@ -1,8 +1,8 @@
 import pytest
 
-from classes.many_to_many import Movie
-from classes.many_to_many import Review
-from classes.many_to_many import Viewer
+from classes.Movie import Movie
+from classes.Review import Review
+from classes.Viewer import Viewer
 
 class TestViewer:
     """Viewer in many_to_many.py"""
